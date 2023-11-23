@@ -27,3 +27,5 @@ The recommended way to solve it is using RegEx and specifically groups.
 class FileNameExtractor {
   static extractFileName = dirty => dirty.match(/^d+_([^.]+\.[^.]+)/)[1];
 }
+
+// or
