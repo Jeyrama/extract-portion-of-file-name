@@ -20,3 +20,6 @@ Acceptable characters for random tests:
 
 The recommended way to solve it is using RegEx and specifically groups.
 */
+
+
+// Solution
