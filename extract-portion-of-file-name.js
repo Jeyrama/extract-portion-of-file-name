@@ -29,3 +29,12 @@ class FileNameExtractor {
 }
 
 // or
+
+class FileNameExtractor {
+  static extractFileName (dirtyFileName) {
+    let numSlice = dirtyFileName.indexOf('_')
+    let extSlice = dirtyFileName.lastIndexOf('.')
+    dirtyFileName = dirtyFileName.slice(numSlice+1, extSlice)
+    return dirtyFileName
+  }
+}
